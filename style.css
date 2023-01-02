@@ -61,12 +61,7 @@
     min-width: 360px;
 }
 .ContactInfo{
-    color: bisque;
-}
-.AboutHead{
-    font-size: 45px;
-    font-family: Brush Script MT, Brush Script Std, cursive;
-    color: bisque;
+    color: slategray;
 }
 .SeeThroughButts{
     width: 300px;
