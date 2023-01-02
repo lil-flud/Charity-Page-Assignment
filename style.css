@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    min-height: 100vh;
+    width: 100%;
+    background-color: lightslategray;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(image/IntroPic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.intro{
+    transform: translateY(30px);
+    margin: 30px;
+    height: auto;
+    margin-top: -0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro img{
+    height: 220px;
+    width: auto;
+    border-radius: 50%;
+    margin: 20px;
+    border: 3px;
+    border-style: solid;
+    border-color: darkred;
+}
+.introdesc{
+    padding: 10px;
+    text-align: center;
+}
+.introdesc h1{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-weight: 300;
+    font-size: 65px;
+    color: bisque;
+    width: auto;
+    height: auto;
+}
+.center{
+    text-align: center;
+}
+.center h2{
+    font-size: 45px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: bisque;
+}
+.center p{
+    color:slategray;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.Contact{
+    min-height: 200px;
+    height: auto;
+    min-width: 360px;
+}
+.ContactInfo{
+    color: bisque;
+}
+.AboutHead{
+    font-size: 45px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: bisque;
+}
+.SeeThroughButts{
+    width: 300px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(85, 156, 200);
+    background: transparent;
+    color: slategray;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translateX(5%);
+}
+.SeeThroughButts span{
+    background: rgba(209, 141, 6, 0.676);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.Contact img{
+    object-fit:fill;
+}
+.students{
+    height: 200px;
+    width: auto;
+    padding-right: 20px;
+    padding-left: 30px;
+    border-radius: 200px;
+}
